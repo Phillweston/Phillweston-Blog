@@ -231,34 +231,34 @@ const CONFIG = {
   STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
   STARTER_BRANDS: [
     {
-      IMAGE: '/images/starter/brands/graygrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
-      URL: 'https://graygrids.com/',
-      TITLE: 'graygrids'
+      IMAGE: '/images/starter/brands/dji.svg',
+      IMAGE_WHITE: '/images/starter/brands/dji-white.svg',
+      URL: 'https://dji.com/',
+      TITLE: 'DJI'
     },
     {
-      IMAGE: '/images/starter/brands/lineicons.svg',
-      IMAGE_WHITE: '/images/starter/brands/lineicons-white.svg',
-      URL: 'https://lineicons.com/',
-      TITLE: 'lineicons'
+      IMAGE: '/images/starter/brands/ardupilot.svg',
+      IMAGE_WHITE: '/images/starter/brands/ardupilot-white.svg',
+      URL: 'https://ardupilot.org/',
+      TITLE: 'Ardupilot'
     },
     {
-      IMAGE: '/images/starter/brands/uideck.svg',
-      IMAGE_WHITE: '/images/starter/brands/uideck-white.svg',
-      URL: 'https://uideck.com/',
-      TITLE: 'uideck'
+      IMAGE: '/images/starter/brands/px4.svg',
+      IMAGE_WHITE: '/images/starter/brands/px4-white.svg',
+      URL: 'https://px4.io/',
+      TITLE: 'PX4-Autopilot'
     },
     {
-      IMAGE: '/images/starter/brands/ayroui.svg',
-      IMAGE_WHITE: '/images/starter/brands/ayroui-white.svg',
-      URL: 'https://ayroui.com/',
-      TITLE: 'ayroui'
+      IMAGE: '/images/starter/brands/cloudflare.svg',
+      IMAGE_WHITE: '/images/starter/brands/cloudflare-white.svg',
+      URL: 'https://cloudflare.com/',
+      TITLE: 'CloudFlare'
     },
     {
-      IMAGE: '/images/starter/brands/tailgrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/tailgrids-white.svg',
-      URL: '"https://tailgrids.com/',
-      TITLE: 'tailgrids'
+      IMAGE: '/images/starter/brands/huawei.svg',
+      IMAGE_WHITE: '/images/starter/brands/huawei-white.svg',
+      URL: '"https://huawei.com/',
+      TITLE: 'Huawei'
     }
   ],
 
