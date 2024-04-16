@@ -2,7 +2,6 @@
  * 另一个落地页主题
  */
 const CONFIG = {
-
   // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
   STARTER_LOGO: '/images/starter/logo/logo.svg', // 普通logo图片
   STARTER_LOGO_WHITE: '/images/starter/logo/logo-white.svg', // 透明底浅色logo图片
