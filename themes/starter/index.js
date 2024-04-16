@@ -224,12 +224,16 @@ const LayoutTagIndex = props => <></>
  * @param {*} props
  * @returns
  */
-const LayoutSignIn = (props) => {
-  return <>
-        <div className='grow mt-20'>
-            <Banner title='Login' description='Login function has not been implemented yet.'/>
-            <SignInForm/>
-        </div>
+const LayoutSignIn = props => {
+  return (
+    <>
+      <div className='grow mt-20'>
+        <Banner
+          title='Login'
+          description='Login function has not been implemented yet.'
+        />
+        <SignInForm />
+      </div>
     </>
   )
 }
@@ -239,12 +243,17 @@ const LayoutSignIn = (props) => {
  * @param {*} props
  * @returns
  */
-const LayoutSignUp = (props) => <>
-        <div className='grow mt-20'>
-            <Banner title='Register' description='Register function has not been implemented yet.'/>
-            <SignUpForm/>
-        </div>
-</>
+const LayoutSignUp = props => (
+  <>
+    <div className='grow mt-20'>
+      <Banner
+        title='Register'
+        description='Register function has not been implemented yet.'
+      />
+      <SignUpForm />
+    </div>
+  </>
+)
 
 export {
   Layout404,
