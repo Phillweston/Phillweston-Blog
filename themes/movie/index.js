@@ -258,7 +258,11 @@ const LayoutSlug = props => {
           videoWrapper.appendChild(figCaptionWrapper)
         }
         // 放入页面
-        notionArticle.insertBefore(videoWrapper, notionArticle.firstChild)
+        if (notionArticle.firstChild && notionArticle.contains(notionArticle.firstChild)) {
+          notionArticle.insertBefore(videoWrapper, notionArticle.firstChild)
+        } else {
+          notionArticle.appendChild(videoWrapper)
+        }
       }
     }
 
@@ -288,7 +292,9 @@ const LayoutSlug = props => {
 
       // 遍历所有匹配的元素并移除它们
       videoWrappers.forEach(wrapper => {
-        wrapper.parentNode.removeChild(wrapper) // 从 DOM 中移除元素
+        if (wrapper && wrapper.parentNode && wrapper.parentNode.contains(wrapper)) {
+          wrapper.parentNode.removeChild(wrapper) // 从 DOM 中移除元素
+        }
       })
     }
   }, [post])

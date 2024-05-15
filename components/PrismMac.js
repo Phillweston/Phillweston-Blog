@@ -74,7 +74,7 @@ const loadPrismThemeCSS = (isDarkMode, prismThemeSwitch, prismThemeDarkPath, pri
       PRISM_PREVIOUS = prismThemeDarkPath
     }
     const previousTheme = document.querySelector(`link[href="${PRISM_PREVIOUS}"]`)
-    if (previousTheme) {
+    if (previousTheme && previousTheme.parentNode && previousTheme.parentNode.contains(previousTheme)) {
       previousTheme.parentNode.removeChild(previousTheme)
     }
     loadExternalResource(PRISM_THEME, 'css')
@@ -116,7 +116,11 @@ const renderCollapseCode = (codeCollapse, codeCollapseExpandDefault) => {
     panelWrapper.appendChild(panel)
     collapseWrapper.appendChild(panelWrapper)
 
-    codeBlock.parentNode.insertBefore(collapseWrapper, codeBlock)
+    if (codeBlock.parentNode && codeBlock.parentNode.contains(codeBlock)) {
+      codeBlock.parentNode.insertBefore(collapseWrapper, codeBlock)
+    } else {
+      codeBlock.appendChild(collapseWrapper)
+    }
     panel.appendChild(codeBlock)
 
     function collapseCode() {
