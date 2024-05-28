@@ -2841,18 +2841,7 @@ notion-types@^6.15.6, notion-types@^6.16.0:
   resolved "https://registry.yarnpkg.com/notion-types/-/notion-types-6.16.0.tgz#1c676b180095d14209a6760dd8586db55a115e91"
   integrity sha512-Cv83GaAczx57q1qsnuG8DHOuOb63c83u9LX2IainG5aqBEB0GUuLZ4DUQfB6MaXt+FMY9fO+KTgPeZWwX9hbrQ==
 
-notion-utils@6.15.6:
-  version "6.15.6"
-  resolved "https://registry.yarnpkg.com/notion-utils/-/notion-utils-6.15.6.tgz#d172faa2c29d62eac71b4e17ed01336d5e372d02"
-  integrity sha512-Ys7lQ5KWmrk9ZmpFquomQcVRdQqmZMRAl0aFhoqirVgeyKtq/i5IZoHCw8jCY8732WlaEAUnBid56nN33N2fRQ==
-  dependencies:
-    is-url-superb "^6.1.0"
-    mem "^9.0.2"
-    normalize-url "^7.0.3"
-    notion-types "^6.15.6"
-    p-queue "^7.2.0"
-
-notion-utils@^6.15.6, notion-utils@^6.16.0:
+notion-utils@6.16.0, notion-utils@^6.15.6, notion-utils@^6.16.0:
   version "6.16.0"
   resolved "https://registry.yarnpkg.com/notion-utils/-/notion-utils-6.16.0.tgz#b81567b9d8d7ee6199383b9b41f58f5f297a1c36"
   integrity sha512-DxToriZAJW/64O1xlAjyU/50dRmkO1e54+i0dEAPDij0MlHyihEivAMsdEG/6/4eFC972BIsEKZ6BXsSTUYKlQ==
