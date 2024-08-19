@@ -263,7 +263,7 @@ const CONFIG = {
 
   STARTER_FOOTER_SLOGAN: 'A geek in the Unmanned Aircraft System field, a leader with a dream. Interested in control theory & aircraft navigation and decision.',
 
-  // 页脚三列菜单组
+  // 页脚四列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
       TITLE: 'About Me',
@@ -274,7 +274,6 @@ const CONFIG = {
         { TITLE: 'Friend Link', URL: '/links' },
         { TITLE: 'Cooperators', URL: '/cooperators' },
         { TITLE: 'Gallery', URL: '/gallery' },
-        { TITLE: 'Study Materials', URL: '/study-materials' },
         { TITLE: 'Open Source Code', URL: '/open-source-code' },
         { TITLE: 'Website Technology', URL: '/website-technology' }
       ]
@@ -305,6 +304,14 @@ const CONFIG = {
         { TITLE: 'List of Papers Related to Shadowsocks', URL: '/article/list-of-papers-related-to-shadowsocks' },
         { TITLE: '.NET Framework Regular Expressions', URL: '/article/dotnet-framework-regular-expressions' },
         { TITLE: 'DJI Remote Control MAVLink Protocol V1.0', URL: '/article/dji-remote-control-mavlink-protocol-v1-0' },
+      ]
+    },
+    {
+      TITLE: 'Study Materials',
+      LINK_GROUP: [
+        { TITLE: 'AI Courses', URL: '/study-materials' },
+        { TITLE: 'Computer Language Resources', URL: '/article/computer-language-resources' },
+        { TITLE: 'FPGA in Digital Signal Processing', URL: '/article/fpga-in-digital-signal-processing' }
       ]
     }
   ],
