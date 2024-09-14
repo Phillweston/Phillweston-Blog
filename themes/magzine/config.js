@@ -3,19 +3,19 @@ const CONFIG = {
   MAGZINE_HOME_BANNER_ENABLE: true, // 首屏右上角的宣传位
   MAGZINE_HOME_BUTTON: true,
   MAGZINE_HOME_BUTTON_URL: '/about',
-  MAGZINE_HOME_BUTTON_TEXT: '了解更多',
+  MAGZINE_HOME_BUTTON_TEXT: 'Learn More',
 
-  MAGZINE_HOME_HIDDEN_CATEGORY: '分享杂文', //不希望在首页展示的文章分类，用英文逗号隔开
+  MAGZINE_HOME_HIDDEN_CATEGORY: '模板页面', //不希望在首页展示的文章分类，用英文逗号隔开
 
-  MAGZINE_HOME_TITLE: '立即开创您的在线业务。完全免费。',
+  MAGZINE_HOME_TITLE: 'Elevating Possibilities',
   MAGZINE_HOME_DESCRIPTION:
-    '借助NotionNext，获得助您开创、经营和扩展业务所需的全部工具和帮助。',
-  MAGZINE_HOME_TIPS: 'AI时代来临，这是属于超级个体的狂欢盛宴！',
+    'Innovating the Skies with Cutting-Edge Drone Technology. Explore the World of Autonomous Drones.',
+  MAGZINE_HOME_TIPS: 'Extending the altitude of technology in aircraft control and algorithms using the latest advancements, amplifying the impact and efficiency of modern aviation technology.',
 
   // 首页底部推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   MAGZINE_RECOMMEND_POST_TAG: '推荐',
   MAGZINE_RECOMMEND_POST_COUNT: 6,
-  MAGZINE_RECOMMEND_POST_TITLE: '推荐文章',
+  MAGZINE_RECOMMEND_POST_TITLE: 'Recommended Articles',
   MAGZINE_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
 
   // Style
@@ -52,54 +52,47 @@ const CONFIG = {
       ]
     },
     {
-      name: '开发者',
+      name: 'About Me',
       menus: [
-        { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-        {
-          title: '开发帮助',
-          href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-        },
-        {
-          title: '功能反馈',
-          href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-        },
-        {
-          title: '技术讨论',
-          href: 'https://github.com/tangly1024/NotionNext/discussions'
-        },
-        {
-          title: '关于作者',
-          href: 'https://blog.tangly1024.com/about'
-        }
+        { title: 'Github', href: 'https://github.com/Phillweston/' },
+        { title: 'Official Website', href: '/#home' },
+        { title: 'Help & Support', href: '/how-to-question' },
+        { title: 'Friend Link', href: '/links' },
+        { title: 'Cooperators', href: '/cooperators' },
+        { title: 'Gallery', href: '/gallery' },
+        { title: 'Open Source Code', href: '/open-source-code' },
+        { title: 'Website Technology', href: '/website-technology' }
       ]
     },
     {
-      name: '支持',
+      name: 'Case Studies',
       menus: [
         {
-          title: '站长社群',
-          href: 'https://docs.tangly1024.com/article/chat-community'
+          title: 'Disk Array Failure Prediction System',
+          href: '/article/lstm-deep-transfer-learning-disk-array-failure-prediction'
         },
-        {
-          title: '咨询与定制',
-          href: 'https://docs.tangly1024.com/article/my-service'
-        },
-        {
-          title: '升级手册',
-          href: 'https://docs.tangly1024.com/article/my-service'
-        },
-        {
-          title: '安装教程',
-          href: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
-        },
-        { title: 'SEO推广', href: 'https://seo.tangly1024.com/' }
+        { title: 'UAV Line Inspection System Based on Deep Learning', href: '/article/deep-learning-drone-inspection-system' },
+        { title: 'Intelligent Aerial Surveillance System', href: '/article/yichi-defense-system-comprehensive-control-dynamics' },
+        { title: 'High-altitude Paint Repair Drone', href: '/article/weiyuan-wing-high-altitude-painting-drone' },
+        { title: 'Urban and Rural Intelligent Logistics UAV System', href: '/article/hongyun-smart-logistics-drone-system-urban-rural' },
+        { title: 'Drone-based Intelligent Scenic Garbage Cleaning System', href: '/article/drone-based-intelligent-scenic-area-waste-cleanup-system' },
+        { title: 'Remote All-round Real-time Environmental Monitoring System', href: '/article/remote-full-spectrum-real-time-environment-monitoring-system' },
+        { title: 'UAV Integrated Education System', href: '/article/smart-manufacturing-future-drone-integrated-education-system' },
+        { title: 'Guardian of the Sky Eye', href: '/article/sky-eye-guardian' },
+        { title: 'Software-defined Radio-based Anti-drone System', href: '/article/drone-nemesis-software-radio-based-anti-drone-system' },
+        { title: 'Multifunctional Underwater Drone', href: '/article/dragon-rise-from-depths-multifunctional-underwater-drone' },
+        { title: 'Aerial Antenna Power Pattern Testing System', href: '/article/hexacopter-drone-antenna-power-pattern-testing-system-development' },
       ]
     },
     {
-      name: '解决方案',
+      name: 'For References',
       menus: [
-        { title: '建站工具', href: 'https://www.tangly1024.com/' },
-        { title: 'NotionNext', href: 'https://docs.tangly1024.com/about' }
+        { title: 'Micro Quadrotor Development Guide', href: '/article/micro-quadrotor-development-guide' },
+        { title: 'EE Vocabulary Preview', href: '/article/ee-vocabulary-preview' },
+        { title: 'MEMS IMU Device Selection Reference Table (Partial)', href: '/article/mems-imu-selection-reference-table' },
+        { title: 'List of Papers Related to Shadowsocks', href: '/article/list-of-papers-related-to-shadowsocks' },
+        { title: '.NET Framework Regular Expressions', href: '/article/dotnet-framework-regular-expressions' },
+        { title: 'DJI Remote Control MAVLink Protocol V1.0', href: '/article/dji-remote-control-mavlink-protocol-v1-0' }
       ]
     }
   ],
