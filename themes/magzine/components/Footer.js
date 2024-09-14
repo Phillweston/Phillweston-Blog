@@ -86,7 +86,7 @@ const Footer = ({ title }) => {
             <div className='text-sm font-serif'>
               Powered by{' '}
               <a
-                href='https://github.com/tangly1024/NotionNext'
+                href='https://github.com/Phillweston/Phillweston-Blog'
                 className='underline justify-start text-white'>
                 NotionNext {siteConfig('VERSION')}
               </a>
