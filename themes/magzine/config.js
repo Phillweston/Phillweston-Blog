@@ -5,7 +5,7 @@ const CONFIG = {
   MAGZINE_HOME_BUTTON_URL: '/about',
   MAGZINE_HOME_BUTTON_TEXT: 'Learn More',
 
-  MAGZINE_HOME_HIDDEN_CATEGORY: '模板页面', //不希望在首页展示的文章分类，用英文逗号隔开
+  MAGZINE_HOME_HIDDEN_CATEGORY: '模板页面', // 不希望在首页展示的文章分类，用英文逗号隔开
 
   MAGZINE_HOME_TITLE: 'Elevating Possibilities',
   MAGZINE_HOME_DESCRIPTION:
@@ -31,26 +31,13 @@ const CONFIG = {
 
   // 文章页面联系卡
   MAGZINE_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  MAGZINE_SOCIAL_CARD_TITLE_1: '交流频道',
-  MAGZINE_SOCIAL_CARD_TITLE_2: '加入社群讨论分享',
-  MAGZINE_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  MAGZINE_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/chat-community',
+  MAGZINE_SOCIAL_CARD_TITLE_1: 'My CSDN Blog',
+  MAGZINE_SOCIAL_CARD_TITLE_2: 'View my latest articles',
+  MAGZINE_SOCIAL_CARD_TITLE_3: 'Click to view',
+  MAGZINE_SOCIAL_CARD_URL: 'https://blog.csdn.net/qq_26550927',
 
   // 页脚菜单
   MAGZINE_FOOTER_LINKS: [
-    {
-      name: '友情链接',
-      menus: [
-        {
-          title: 'Tangly的学习笔记',
-          href: 'https://blog.tangly1024.com'
-        },
-        {
-          title: 'NotionNext',
-          href: 'https://www.tangly1024.com'
-        }
-      ]
-    },
     {
       name: 'About Me',
       menus: [
@@ -93,6 +80,14 @@ const CONFIG = {
         { title: 'List of Papers Related to Shadowsocks', href: '/article/list-of-papers-related-to-shadowsocks' },
         { title: '.NET Framework Regular Expressions', href: '/article/dotnet-framework-regular-expressions' },
         { title: 'DJI Remote Control MAVLink Protocol V1.0', href: '/article/dji-remote-control-mavlink-protocol-v1-0' }
+      ]
+    },
+    {
+      name: 'Study Materials',
+      menus: [
+        { title: 'AI Courses', href: '/study-materials' },
+        { title: 'Computer Language Resources', href: '/article/computer-language-resources' },
+        { title: 'FPGA in Digital Signal Processing', href: '/article/fpga-in-digital-signal-processing' }
       ]
     }
   ],
