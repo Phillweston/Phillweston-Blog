@@ -334,14 +334,14 @@ const CONFIG = {
 
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
-  STARTER_CTA_TITLE: '你还在等待什么呢？',
-  STARTER_CTA_TITLE_2: '现在开始吧',
+  STARTER_CTA_TITLE: 'Ready to Elevate Your Knowledge?',
+  STARTER_CTA_TITLE_2: 'Start Your Journey Now',
   STARTER_CTA_DESCRIOTN:
-    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+    'Explore detailed tutorials and documentation on my blog to kickstart your projects in Electronic Information Engineering and beyond.',
   STARTER_CTA_BUTTON: true, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
-  STARTER_CTA_BUTTON_TEXT: '开始体验',
+    'https://docs.phillweston.com/site-navigation',
+  STARTER_CTA_BUTTON_TEXT: 'Get Started',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
   STARTER_POST_REDIRECT_URL: 'https://docs.phillweston.com', // 重定向域名
