@@ -15,7 +15,7 @@ const CONFIG = {
   LANDING_HERO_BUTTON_2_LINK: '/about',
   LANDING_HERO_VIDEO_IMAGE: '/images/home.png',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
-  LANDING_HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
+  LANDING_HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1VL4y1i7op&cid=1187218697&page=1&&high_quality=1',
   LANDING_HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
 
   // 特性介绍
