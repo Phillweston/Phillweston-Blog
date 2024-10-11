@@ -24,6 +24,8 @@ const CONFIG = {
   HEO_HERO_TITLE_4: 'New Era of UAVs',
   HEO_HERO_TITLE_5: 'Discover Innovations on My Tech Blog',
   HEO_HERO_TITLE_LINK: 'https://blog.csdn.net/qq_26550927',
+  // 英雄区遮罩文字
+  HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: 'Must-Read Picks', url: '/tag/文字' },
