@@ -8,7 +8,7 @@ const CONFIG = {
 
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: 'Elevating Possibilities',
-  LANDING_HERO_P_1: 'Innovating the Skies with Cutting-Edge Drone Technology. Explore the World of Autonomous Drones.',
+  LANDING_HERO_P_1: 'Exploring the Skies with Cutting-Edge Drone Technology. Discover the World of Autonomous Drones.',
   LANDING_HERO_BUTTON_1_TEXT: 'Explore',
   LANDING_HERO_BUTTON_1_LINK: '/?theme=heo',
   LANDING_HERO_BUTTON_2_TEXT: 'About Me',
