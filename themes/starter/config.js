@@ -339,7 +339,7 @@ const CONFIG = {
   STARTER_CTA_ENABLE: true,
   STARTER_CTA_TITLE: 'Ready to Elevate Your Knowledge?',
   STARTER_CTA_TITLE_2: 'Start Your Journey Now',
-  STARTER_CTA_DESCRIOTN:
+  STARTER_CTA_DESCRIPTION:
     'Explore detailed tutorials and documentation on my blog to kickstart your projects in Electronic Information Engineering and beyond.',
   STARTER_CTA_BUTTON: true, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
