@@ -10,7 +10,7 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'Innovating the Skies with Cutting-Edge Drone Technology', // Hero Section Title
+  STARTER_HERO_TITLE_1: 'Exploring the Skies with Cutting-Edge Drone Technology', // Hero Section Title
   STARTER_HERO_TITLE_2: 'Elevating Possibilities: Explore the World of Autonomous Drones', // Hero Section Title
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'Explore', // Hero Section Button
@@ -343,7 +343,7 @@ const CONFIG = {
     'Explore detailed tutorials and documentation on my blog to kickstart your projects in Electronic Information Engineering and beyond.',
   STARTER_CTA_BUTTON: true, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
-    'https://docs.phillweston.com/site-navigation',
+    'https://docs.phillweston.com/?theme=plog',
   STARTER_CTA_BUTTON_TEXT: 'Get Started',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
