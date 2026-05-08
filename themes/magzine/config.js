@@ -12,6 +12,8 @@ const CONFIG = {
     'Innovating the Skies with Cutting-Edge Drone Technology. Explore the World of Autonomous Drones.',
   MAGZINE_HOME_TIPS: 'Extending the altitude of technology in aircraft control and algorithms using the latest advancements, amplifying the impact and efficiency of modern aviation technology.',
 
+  MAGZINE_HERO_SUB_POST_COUNT: 2, // 首屏英雄区次要文章数量，通常2篇，如果关闭Banner，推荐改为3篇
+
   // 首页底部推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   MAGZINE_RECOMMEND_POST_TAG: '推荐',
   MAGZINE_RECOMMEND_POST_COUNT: 6,
